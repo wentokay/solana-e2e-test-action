@@ -1,0 +1,10 @@
+name: Solana e2e test
+description: Runs puppeteer tests with solana
+inputs:
+  command:
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.command }}
