@@ -1,5 +1,5 @@
 name: Solana e2e test
-description: Runs puppeteer tests with solana
+description: Runs puppeteer headful tests with solana
 inputs:
   command:
     required: true
